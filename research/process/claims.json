@@ -1,0 +1,139 @@
+{
+  "sources": {
+    "saints": {
+      "type": "web",
+      "url": "https://www.neworleanssaints.com/news/injury-report-las-vegas-raiders-vs-new-orleans-saints-2026-nfl-week-3-thursday",
+      "retrieved": "2026-09-24",
+      "effective": "2026-09-24",
+      "entity": "New Orleans Saints Week 3 Thursday injury report"
+    },
+    "jets": {
+      "type": "web",
+      "url": "https://www.newyorkjets.com/team/players-roster/braelon-allen/logs/",
+      "retrieved": "2026-09-24",
+      "effective": "2026-09-20",
+      "entity": "New York Jets Braelon Allen game log"
+    },
+    "ravens": {
+      "type": "web",
+      "url": "https://www.baltimoreravens.com/news/rashod-bateman-ravens-grades-snap-counts-mark-andrews-mike-green-trenton-simpson-devontez-walker-chris-moore",
+      "retrieved": "2026-09-24",
+      "effective": "2026-09-21",
+      "entity": "Baltimore Ravens Rashod Bateman Week 2 recap"
+    },
+    "ravens_pr": {
+      "type": "web",
+      "url": "https://russellstreetreport.com/2026/09/24/injury-report/injury-report-ravens-at-cowboys-thursday/",
+      "retrieved": "2026-09-24",
+      "effective": "2026-09-24",
+      "entity": "Baltimore Ravens PR injury report"
+    },
+    "eagles": {
+      "type": "web",
+      "url": "https://www.philadelphiaeagles.com/news/eagles-at-bears-injury-report-2026-nfl-week-3-monday-night-football-caleb-williams-saquon-barkley",
+      "retrieved": "2026-09-24",
+      "effective": "2026-09-24",
+      "entity": "Philadelphia Eagles injury report"
+    },
+    "runtime": {
+      "type": "doc",
+      "ref": "runtime-read.txt; CLI output 2026-09-24"
+    },
+    "jets_depth": {
+      "type": "web",
+      "url": "https://www.newyorkjets.com/team/depth-chart",
+      "retrieved": "2026-09-24",
+      "effective": "2026-09-24",
+      "entity": "New York Jets unofficial depth chart"
+    },
+    "mitchell": {
+      "type": "web",
+      "url": "https://www.newyorkjets.com/team/players-roster/adonai-mitchell/",
+      "retrieved": "2026-09-24",
+      "effective": "2026-09-20",
+      "entity": "New York Jets Adonai Mitchell player log"
+    },
+    "wandale": {
+      "type": "web",
+      "url": "https://www.tennesseetitans.com/team/players-roster/wan-dale-robinson/logs/",
+      "retrieved": "2026-09-24",
+      "effective": "2026-09-20",
+      "entity": "Tennessee Titans WanDale Robinson player log"
+    }
+  },
+  "claims": [
+    {
+      "id": "allen_backup",
+      "value": "Jets list Allen directly behind Hall",
+      "source": "jets_depth",
+      "quote": "RB | Breece Hall | Braelon Allen | Isaiah Davis | Kene Nwangwu",
+      "anchors": [
+        "Jets list Allen directly behind Hall"
+      ]
+    },
+    {
+      "id": "etienne_limited",
+      "value": "Etienne was limited",
+      "source": "saints",
+      "quote": "RB | Travis Etienne Jr. | Hamstring | LP | LP",
+      "anchors": [
+        "Etienne was limited"
+      ]
+    },
+    {
+      "id": "miller_dnp",
+      "value": "Kendre Miller missed Thursday\u2019s practice",
+      "source": "saints",
+      "quote": "RB | Kendre Miller | Illness | - | DNP",
+      "anchors": [
+        "Kendre Miller missed Thursday\u2019s practice"
+      ]
+    },
+    {
+      "id": "flowers_dnp",
+      "value": "Flowers still missing practice",
+      "source": "ravens_pr",
+      "quote": "Did Not Participate: WR Zay Flowers (hamstring)",
+      "anchors": [
+        "Flowers is still missing practice"
+      ]
+    },
+    {
+      "id": "barkley_limited",
+      "value": "Barkley limited",
+      "source": "eagles",
+      "quote": "Running back Saquon Barkley, who was injured in Sunday's win over the Titans with a stinger injury, was limited in practice.",
+      "anchors": [
+        "Barkley limited"
+      ]
+    },
+    {
+      "id": "bigsby_shipley_dnp",
+      "value": "both Bigsby and Shipley out of practice",
+      "source": "eagles",
+      "quote": "running back Tank Bigsby (abdomen), tight end Dallas Goedert (knee), running back Will Shipley (foot)",
+      "anchors": [
+        "both Bigsby and Shipley out of practice"
+      ]
+    },
+    {
+      "id": "reads_failed",
+      "value": "My private waiver and ESPN reads failed",
+      "source": "runtime",
+      "anchors": [
+        "My private waiver and ESPN reads failed"
+      ]
+    },
+    {
+      "id": "bateman_role",
+      "value": "leading Baltimore\u2019s receivers with Flowers out",
+      "source": "ravens",
+      "quote": "With Zay Flowers sidelined by a hamstring injury ... Bateman stepped into the Ravens\u2019 No. 1 receiver spot and delivered. Bateman hauled in seven passes for 88 yards and a touchdown",
+      "anchors": [
+        "leading Baltimore\u2019s receivers with Flowers out"
+      ]
+    }
+  ],
+  "relations": [],
+  "exempt": []
+}

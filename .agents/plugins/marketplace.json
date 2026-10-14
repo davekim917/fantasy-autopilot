@@ -1,0 +1,6 @@
+{
+  "name": "fantasy-football",
+  "plugins": [
+    { "name": "fantasy-football", "source": { "source": "local", "path": "./" } }
+  ]
+}

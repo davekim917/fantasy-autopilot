@@ -1,0 +1,4 @@
+2026-09-24 fantasy CLI private-read diagnostic, agent session:
+Sleeper waivers (league B): Sleeper league_transactions_filtered error: Unauthorized; Sleeper credential not injected or expired.
+ESPN state/roster/waivers (ESPN league): HTTP 401 from lm-api-reads.fantasy.espn.com; the credential exists at the proxy but this agent does not have access to it.
+Sleeper public roster (league B) did return, with Braelon Allen and Wan'Dale Robinson on bench; Adonai Mitchell also on bench.

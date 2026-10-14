@@ -1,0 +1,6 @@
+{
+  "leagues": [
+    { "alias": "sleeper-league", "platform": "sleeper", "leagueId": "100000000000000001", "rosterId": 4 },
+    { "alias": "espn-league", "platform": "espn", "leagueId": "20000001", "teamId": 2, "memberId": "{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}" }
+  ]
+}

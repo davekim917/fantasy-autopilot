@@ -1,0 +1,6 @@
+{
+  "name": "fantasy-football",
+  "version": "1.0.0",
+  "description": "Manage your own Sleeper and ESPN fantasy football teams with your own credentials: rosters, matchups, waivers, lineups, IR, claims, a win-probability lineup optimizer; trades draft-only.",
+  "author": { "name": "Dave Kim" }
+}

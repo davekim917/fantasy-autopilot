@@ -1,0 +1,143 @@
+{
+  "sims": 800,
+  "weeks": "2025 W5-W18",
+  "vegas": true,
+  "blendWeightOurs": 0.4,
+  "results": [
+    {
+      "label": "ALL",
+      "n": 2482,
+      "widthNeeded": 1.242,
+      "ours": {
+        "mae": 5.731,
+        "rmse": 7.512,
+        "corr": 0.473,
+        "bias": -0.47
+      },
+      "platform": {
+        "mae": 5.675,
+        "rmse": 7.229,
+        "corr": 0.528,
+        "bias": 0.82
+      },
+      "blend": {
+        "mae": 5.567,
+        "rmse": 7.177,
+        "corr": 0.527,
+        "bias": 0.3
+      },
+      "calibration": {
+        "pctInside80": 67.8,
+        "pctBelowMedian": 47
+      }
+    },
+    {
+      "label": "QB",
+      "n": 403,
+      "widthNeeded": 1.304,
+      "ours": {
+        "mae": 6.527,
+        "rmse": 8.241,
+        "corr": 0.245,
+        "bias": 0.37
+      },
+      "platform": {
+        "mae": 6.613,
+        "rmse": 8.251,
+        "corr": 0.289,
+        "bias": 2.83
+      },
+      "blend": {
+        "mae": 6.351,
+        "rmse": 7.961,
+        "corr": 0.298,
+        "bias": 1.84
+      },
+      "calibration": {
+        "pctInside80": 65.5,
+        "pctBelowMedian": 48.4
+      }
+    },
+    {
+      "label": "RB",
+      "n": 673,
+      "widthNeeded": 1.259,
+      "ours": {
+        "mae": 5.725,
+        "rmse": 7.758,
+        "corr": 0.478,
+        "bias": -0.98
+      },
+      "platform": {
+        "mae": 5.742,
+        "rmse": 7.403,
+        "corr": 0.534,
+        "bias": 0.34
+      },
+      "blend": {
+        "mae": 5.64,
+        "rmse": 7.405,
+        "corr": 0.532,
+        "bias": -0.19
+      },
+      "calibration": {
+        "pctInside80": 69.5,
+        "pctBelowMedian": 44.1
+      }
+    },
+    {
+      "label": "WR",
+      "n": 986,
+      "widthNeeded": 1.216,
+      "ours": {
+        "mae": 5.624,
+        "rmse": 7.211,
+        "corr": 0.426,
+        "bias": -0.34
+      },
+      "platform": {
+        "mae": 5.487,
+        "rmse": 6.884,
+        "corr": 0.504,
+        "bias": 0.8
+      },
+      "blend": {
+        "mae": 5.422,
+        "rmse": 6.88,
+        "corr": 0.497,
+        "bias": 0.34
+      },
+      "calibration": {
+        "pctInside80": 65.2,
+        "pctBelowMedian": 49.8
+      }
+    },
+    {
+      "label": "TE",
+      "n": 420,
+      "widthNeeded": 1.201,
+      "ours": {
+        "mae": 5.227,
+        "rmse": 7.056,
+        "corr": 0.285,
+        "bias": -0.75
+      },
+      "platform": {
+        "mae": 5.109,
+        "rmse": 6.663,
+        "corr": 0.376,
+        "bias": -0.32
+      },
+      "blend": {
+        "mae": 5.04,
+        "rmse": 6.678,
+        "corr": 0.374,
+        "bias": -0.49
+      },
+      "calibration": {
+        "pctInside80": 73.1,
+        "pctBelowMedian": 43.8
+      }
+    }
+  ]
+}

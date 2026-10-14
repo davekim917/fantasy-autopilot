@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="backtest-mae-title backtest-mae-desc" id="backtest-mae-root">
+<title id="backtest-mae-title">Mean absolute error by position: our projection, the platform projection, and the 0.4/0.6 blend</title>
+<desc id="backtest-mae-desc">Dot plot of MAE on 2,482 player-weeks from 2025 weeks 5 to 18. Lower is better. Overall: ours 5.73, platform 5.68, blend 5.57. The blend is lowest at every position; ours beats the platform only at QB and RB.</desc>
+  <defs>
+      <style>#backtest-mae-root { font-family: 'Geist', sans-serif; color: #0b0b0b; }
+      #backtest-mae-root table { margin-top: 1.5rem; border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; }
+      #backtest-mae-root caption { text-align: left; color: #52514e; padding-bottom: 0.4rem; }
+      #backtest-mae-root th, #backtest-mae-root td { padding: 4px 12px 4px 0; text-align: right; border-bottom: 1px solid #e6e5e1; }
+      #backtest-mae-root th:first-child, #backtest-mae-root td:first-child { text-align: left; }</style>
+  </defs>
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="40" y="44" fill="#0b0b0b" font-size="17" font-weight="600" font-family="'Geist', sans-serif">Projection error by position, 2025 weeks 5–18</text>
+<text x="40" y="64" fill="#52514e" font-size="11" font-family="'Geist', sans-serif">Mean absolute error in PPR points on 2,482 out-of-sample player-weeks. Lower is better.</text>
+<circle cx="45" cy="88" r="5" fill="#2a78d6"/>
+<text x="56" y="92" fill="#52514e" font-size="11" font-family="'Geist', sans-serif">ours, usage-based model (5.73 overall)</text>
+<circle cx="349" cy="88" r="5" fill="#eb6834"/>
+<text x="360" y="92" fill="#52514e" font-size="11" font-family="'Geist', sans-serif">platform projection (5.67)</text>
+<circle cx="569" cy="88" r="5" fill="#1baf7a"/>
+<text x="580" y="92" fill="#52514e" font-size="11" font-family="'Geist', sans-serif">blend 0.4 ours / 0.6 platform (5.57)</text>
+<line x1="189.5" y1="112" x2="189.5" y2="386" stroke="#e6e5e1" stroke-width="1"/>
+<text x="189.5" y="404" fill="#52514e" font-size="11" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">5.0</text>
+<line x1="386.8" y1="112" x2="386.8" y2="386" stroke="#e6e5e1" stroke-width="1"/>
+<text x="386.8" y="404" fill="#52514e" font-size="11" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">5.5</text>
+<line x1="584.2" y1="112" x2="584.2" y2="386" stroke="#e6e5e1" stroke-width="1"/>
+<text x="584.2" y="404" fill="#52514e" font-size="11" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">6.0</text>
+<line x1="781.6" y1="112" x2="781.6" y2="386" stroke="#e6e5e1" stroke-width="1"/>
+<text x="781.6" y="404" fill="#52514e" font-size="11" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">6.5</text>
+<text x="900" y="404" fill="#52514e" font-size="11" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">MAE →</text>
+<text x="40" y="144" fill="#0b0b0b" font-size="12" font-weight="600" font-family="'Geist', sans-serif">All</text>
+<text x="136" y="144" fill="#52514e" font-size="10" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">n=2,482</text>
+<line x1="413.3" y1="140" x2="478.0" y2="140" stroke="#e6e5e1" stroke-width="2" stroke-linecap="round"/>
+<circle cx="413.3" cy="140" r="6" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>ALL · blend: MAE 5.567</title></circle>
+<circle cx="455.9" cy="140" r="6" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>ALL · platform: MAE 5.675</title></circle>
+<circle cx="478.0" cy="140" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>ALL · ours: MAE 5.731</title></circle>
+<text x="402.3" y="144" fill="#52514e" font-size="10.5" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">5.57</text>
+<text x="40" y="200" fill="#0b0b0b" font-size="12" font-weight="600" font-family="'Geist', sans-serif">QB</text>
+<text x="136" y="200" fill="#52514e" font-size="10" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">n=403</text>
+<line x1="722.8" y1="196" x2="826.2" y2="196" stroke="#e6e5e1" stroke-width="2" stroke-linecap="round"/>
+<circle cx="722.8" cy="196" r="6" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>QB · blend: MAE 6.351</title></circle>
+<circle cx="826.2" cy="196" r="6" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>QB · platform: MAE 6.613</title></circle>
+<circle cx="792.2" cy="196" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>QB · ours: MAE 6.527</title></circle>
+<text x="711.8" y="200" fill="#52514e" font-size="10.5" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">6.35</text>
+<text x="40" y="256" fill="#0b0b0b" font-size="12" font-weight="600" font-family="'Geist', sans-serif">RB</text>
+<text x="136" y="256" fill="#52514e" font-size="10" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">n=673</text>
+<line x1="442.1" y1="252" x2="482.4" y2="252" stroke="#e6e5e1" stroke-width="2" stroke-linecap="round"/>
+<circle cx="442.1" cy="252" r="6" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>RB · blend: MAE 5.640</title></circle>
+<circle cx="482.4" cy="252" r="6" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>RB · platform: MAE 5.742</title></circle>
+<circle cx="475.7" cy="252" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>RB · ours: MAE 5.725</title></circle>
+<text x="431.1" y="256" fill="#52514e" font-size="10.5" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">5.64</text>
+<text x="40" y="312" fill="#0b0b0b" font-size="12" font-weight="600" font-family="'Geist', sans-serif">WR</text>
+<text x="136" y="312" fill="#52514e" font-size="10" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">n=986</text>
+<line x1="356.1" y1="308" x2="435.8" y2="308" stroke="#e6e5e1" stroke-width="2" stroke-linecap="round"/>
+<circle cx="356.1" cy="308" r="6" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>WR · blend: MAE 5.422</title></circle>
+<circle cx="381.7" cy="308" r="6" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>WR · platform: MAE 5.487</title></circle>
+<circle cx="435.8" cy="308" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>WR · ours: MAE 5.624</title></circle>
+<text x="345.1" y="312" fill="#52514e" font-size="10.5" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">5.42</text>
+<text x="40" y="368" fill="#0b0b0b" font-size="12" font-weight="600" font-family="'Geist', sans-serif">TE</text>
+<text x="136" y="368" fill="#52514e" font-size="10" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">n=420</text>
+<line x1="205.3" y1="364" x2="279.1" y2="364" stroke="#e6e5e1" stroke-width="2" stroke-linecap="round"/>
+<circle cx="205.3" cy="364" r="6" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>TE · blend: MAE 5.040</title></circle>
+<circle cx="232.5" cy="364" r="6" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>TE · platform: MAE 5.109</title></circle>
+<circle cx="279.1" cy="364" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>TE · ours: MAE 5.227</title></circle>
+<text x="194.3" y="368" fill="#52514e" font-size="10.5" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">5.04</text>
+</svg>
